@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" this is an ecommerce project for making jane alam express">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Italianno&family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> alam express login</title>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden" >
+        <ul class="nav-upper flex-space-around ">
+            <li class="nav-list">
+                <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/register.html">Register</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/login.html">Login</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/index.html">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/profile.html">
+                    <img class="nav-img" src="/image/jane-alam.png" alt=" profile icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="" class=" nav-brand nav-link"> Alam Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="/cart.html" class=" nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 products - $124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+     <!-- main starts here -->
+     <main>
+        <div class="login-box card ">
+            <h1>Login</h1>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <input  type="submit" value="Login">
+                <a class="forgot" href="3">Forgot password?</a>
+            </form>
+        </div>
+    </main>
+    <!-- main ends here -->
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input name="subscribe" class="footer-input" id="subscribe" placeholder="Your Email Address" type="email">
+            <button class="btn btn-subscribe" type="submit">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Alam Express. All rights rserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+    
+    <!-- Javascript starts -->
+    <script src="./scripts/index.js"></script>
+    <!-- Javascript ends here -->
+
+</body>
+</html>

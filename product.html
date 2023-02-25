@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" this is an ecommerce project for making jane alam express">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Italianno&family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> alam express</title>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden" >
+        <ul class="nav-upper flex-space-around ">
+            <li class="nav-list">
+                <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/register.html">Register</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/login.html">Login</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/index.html">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/profile.html">
+                    <img class="nav-img" src="/image/jane-alam.png" alt=" profile icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="" class=" nav-brand nav-link"> Alam Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="/cart.html" class=" nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 products - $124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+     <!-- main starts here -->
+     <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product-details-left flex-center">
+                    <img src="/image/dslr.jpg" alt="product">
+                </div>
+                <div class="product-details-right">
+                    <h3 class="product-name">
+                        Dslr Camara
+                    </h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product-data">
+                        <strong>Description: </strong>
+                        Vero amet et magna no amet. Dolor gubergren stet sit nonumy gubergren. Nonumy dolore dolor diam clita. Elitr rebum sed Tempor dolor sadipscing consetetur elitr amet consetetur ipsum vero. Dolore no stet sit at. Rebum voluptua diam clita elitr kasd takimata takimata tempor. Sed sea clita sadipscing elitr, lorem diam.
+                    </p>
+                    <p class="product-data">
+                        The lay other wight himnot seemed, me to of all me the and nor, childe sadness are had hope. Ah what and nor and satiety concubines love drop. Blazon into so deem sun sore the and none. Childe had agen these long care her from from. But and yea plain and mote were in shrine of. Spent spoiled suffice given.
+                    </p>
+                    <h4 class="product-category">Category: Dslr</h4>
+                    <h4 class="product-price">$225.99</h4>
+                    <p class="product-rating">Rating: 4.5/5</p>
+                    <button class=" btn product-data-btn">Add To Cart</button>
+                    <button class=" btn product-data-btn2">Back To Shoping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- main ends here -->
+    <!-- footer starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input name="subscribe" class="footer-input" id="subscribe" placeholder="Your Email Address" type="email">
+            <button class="btn btn-subscribe" type="submit">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Alam Express. All rights rserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- Javascript starts -->
+    <script src="./scripts/index.js"></script>
+    <!-- Javascript ends here -->
+</body>
+</html>
